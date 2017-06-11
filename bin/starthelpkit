@@ -1,0 +1,6 @@
+#!/bin/bash
+ttab redis-server
+ttab memcached
+ttab -d ~/freshdesk/helpkit "rails s"
+ttab -d ~/freshdesk/helpkit "bundle exec sidekiq -C config/sidekiq_client.yml"
+ttab -d ~/elasticsearch-2.2.2 "./bin/elasticsearch"

@@ -1,0 +1,33 @@
+{
+  "name": "starthelpkit",
+  "version": "0.0.1",
+  "description": "start helpkit app by starting the required services and server",
+  "os": [
+    "darwin"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "starthelpkit": "bin/starthelpkit"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satishask/starthelpkit.git"
+  },
+  "keywords": [
+    "helpkit",
+    "starthelpkit",
+    "freshdesk"
+  ],
+  "author": "Satish ASK <satishselvan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satishask/starthelpkit/issues"
+  },
+  "homepage": "https://github.com/satishask/starthelpkit#readme",
+  "dependencies": {
+    "ttab": "^0.5.1"
+  }
+}
